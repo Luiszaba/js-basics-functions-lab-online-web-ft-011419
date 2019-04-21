@@ -24,6 +24,7 @@ function distanceTravelledInFeet(start, destination) {
   }
 }
 
+// returns the price of the ride and response 
 function calculatesFarePrice(start, destination) {
   let distance = distanceTravelledInFeet(start, destination);
   if (distance <= 400) {
